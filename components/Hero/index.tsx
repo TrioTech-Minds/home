@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import image from './assets/shape01.png'
 import { useState } from "react";
 
 const Hero = () => {
@@ -58,14 +59,14 @@ Solid - A Complete SaaS Web Template
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <Image
-                  src="/images/shape/shape-01.png"
+                  src={image}
                   alt="shape"
                   width={46}
                   height={246}
                   className="absolute -left-11.5 top-0"
                 />
                 <Image
-                  src="/images/shape/shape-02.svg"
+                  src="/images/shape/shape02.svg"
                   alt="shape"
                   width={36.9}
                   height={36.7}
