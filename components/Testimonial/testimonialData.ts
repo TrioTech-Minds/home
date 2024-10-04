@@ -1,38 +1,42 @@
+import { Testimonial } from "@/types/testimonial";
+import aarij from './assets/aarij.png';
+import arham from './assets/arham.png';
+import arhamJohar from './assets/arhamJohar.png';
 import image1 from "@/public/images/user/user-01.png";
 import image2 from "@/public/images/user/user-02.png";
-import { Testimonial } from "@/types/testimonial";
+import rafay from './assets/rafay.png';
 
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
-    image: image1,
+    name: "Aarij",
+    designation: "Founder @ CapCart",
+    image: aarij,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Trio Tech Minds transformed our content generation process with their Gen AI solutions. We now create high-quality marketing content in a fraction of the time, and the results have been phenomenal. Their expertise in AI is unmatched!",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
+    name: "Arham Bin Johar",
+    designation: "Founder @ VisualsByArham",
+    image: arhamJohar,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "The chatbot Trio Tech Minds developed for us has completely changed the way we interact with our customers. It’s responsive, intelligent, and perfectly tailored to our industry. Our customer support team is thrilled with the reduction in workload!",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
-    image: image1,
+    name: "Abdul Rafay",
+    designation: "Founter @contractWala",
+    image: rafay,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Trio Tech Minds built a stunning mobile app for our business that exceeded all our expectations. Their attention to detail and ability to deliver a seamless experience on both Android and iOS was impressive. We highly recommend them!",
   },
   {
     id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
+    name: "Syed Arham Bin Imran",
+    designation: "Founter @Codable",
+    image: arham,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Our website and backend systems needed a major upgrade, and Trio Tech Minds delivered. The team provided an intuitive, fast, and scalable solution that has improved our website performance and customer experience significantly",
   },
 ];

@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
-      <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      <section id="projects" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
@@ -153,16 +153,16 @@ const About = () => {
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   Popular
                 </span>{" "}
-                Website
+                Mobile App
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Asaan Retail <br/>
+                Survey Kollect <br/>
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Retailing Platform
+                  Survey Collecting
                 </span>
               </h2>
               <p>
-              Developed Asaan Retail, a web application designed to revolutionize inventory management, fulfillment, and accounting for multi-channel commerce businesses. Using Next.js, HTML, SaSS, and JavaScript, I crafted a user-centric interface and collaborated on the design to create a customized, visually appealing website with minimal reliance on pre-built components like Ant Design.
+              We developed "Survey Kollect," a Flutter-based mobile application for Delta Blue Carbon, Pakistan's leading environmental firm, to streamline sensitive data collection for mangrove and forestation projects. The app features secure Microsoft authentication, offline functionality using sqflite databases, and data syncing with AWS Elastic Beanstalk and RDS. Deployed on Azure with scalable infrastructure, this solution enhances Delta Blue Carbon's data integrity, accessibility, and overall operational efficiency, providing a secure and reliable platform tailored to their unique needs.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -173,7 +173,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    React 18, Next.js 13 and JavaScript
+                    Flutter
                   </h3>
                 </div>
               </div>
@@ -185,7 +185,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Website Development
+                    Bloc Architecture
                   </h3>
                 </div>
                 

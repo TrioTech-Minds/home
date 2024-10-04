@@ -1,10 +1,10 @@
 "use client";
-import Image from "next/image";
-import { useState } from "react";
-import FeaturesTabItem from "./FeaturesTabItem";
-import featuresTabData from "./featuresTabData";
 
+import FeaturesTabItem from "./FeaturesTabItem";
+import Image from "next/image";
+import featuresTabData from "./featuresTabData";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const FeaturesTab = () => {
   const [currentTab, setCurrentTab] = useState("tabOne");
@@ -12,7 +12,7 @@ const FeaturesTab = () => {
   return (
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
-      <section className="relative pb-20 pt-18.5 lg:pb-22.5">
+      <section className="relative pb-30 pt-18.5 lg:pb-30">
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image
@@ -63,7 +63,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Clean User Interface
+                  AI
                 </button>
               </div>
             </div>
@@ -82,7 +82,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Essential Business Pages
+                  Mobile Development
                 </button>
               </div>
             </div>
@@ -101,7 +101,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Fully Functional Integrations
+                  Website
                 </button>
               </div>
             </div>

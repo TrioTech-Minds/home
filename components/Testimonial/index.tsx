@@ -1,20 +1,21 @@
 "use client";
-import SectionHeader from "../Common/SectionHeader";
 
-import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+
+import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { motion } from "framer-motion";
+import SectionHeader from "../Common/SectionHeader";
 import SingleTestimonial from "./SingleTestimonial";
+import { motion } from "framer-motion";
 import { testimonialData } from "./testimonialData";
 
 const Testimonial = () => {
   return (
     <>
-      <section>
+      <section id={'testimonial'}>
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
@@ -22,7 +23,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: `We believe that our success is measured by the satisfaction and trust of our clients. Here’s what they have to say about partnering with us. Each testimonial is a testament to our commitment, quality, and the impact we strive to deliver.`,
               }}
             />
           </div>

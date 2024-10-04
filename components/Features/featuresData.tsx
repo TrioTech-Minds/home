@@ -1,10 +1,10 @@
 import { Feature } from "@/types/feature";
-import icon1 from './assets/icon-01.svg';
-import icon2 from './assets/icon-02.svg';
-import icon3 from './assets/icon-03.svg';
-import icon4 from './assets/icon-04.svg';
-import icon5 from './assets/icon-05.svg';
-import icon6 from './assets/icon-06.svg';
+import icon1 from './assets/genAI.svg';
+import icon2 from './assets/chatbot.svg';
+import icon3 from './assets/website.svg';
+import icon4 from './assets/machinelearning.svg';
+import icon5 from './assets/mobiledev.svg';
+import icon6 from './assets/integration.svg';
 
 const featuresData: Feature[] = [
   {

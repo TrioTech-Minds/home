@@ -1,5 +1,5 @@
-import { Testimonial } from "@/types/testimonial";
 import Image from "next/image";
+import { Testimonial } from "@/types/testimonial";
 
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   const { name, designation, image, content } = review;
@@ -12,7 +12,9 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
           </h3>
           <p>{designation}</p>
         </div>
-        <Image width={60} height={50} className="" src={image} alt={name} />
+        <div style={{borderRadius:999 , overflow:"hidden", width:'60px', height:'60px' }}>
+        <Image width={60} height={60}  src={image} alt={name}  />
+        </div>
       </div>
 
       <p>{content}</p>
