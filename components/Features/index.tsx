@@ -1,8 +1,9 @@
 "use client";
+
 import React from "react";
-import featuresData from "./featuresData";
-import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
+import SingleFeature from "./SingleFeature";
+import featuresData from "./featuresData";
 
 const Feature = () => {
   return (
@@ -13,11 +14,9 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "SERVICES",
+              subtitle: "Services We Provide",
+              description: `At Trio Tech Minds, we specialize in delivering cutting-edge AI/ML solutions, seamless Flutter app development, and robust website development services to bring your ideas to life.`,
             }}
           />
           {/* <!-- Section Title End --> */}

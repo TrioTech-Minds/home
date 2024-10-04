@@ -1,47 +1,53 @@
 import { Feature } from "@/types/feature";
+import icon1 from './assets/icon-01.svg';
+import icon2 from './assets/icon-02.svg';
+import icon3 from './assets/icon-03.svg';
+import icon4 from './assets/icon-04.svg';
+import icon5 from './assets/icon-05.svg';
+import icon6 from './assets/icon-06.svg';
 
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    icon: icon1,
+    title: "Gen AI Solutions",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Unlock the power of generative AI with tailored solutions that revolutionize the way your business creates, analyzes, and automates content.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    icon: icon2,
+    title: "Specialized ChatBots",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Elevate customer interactions with intelligent, customized chatbots designed to enhance user engagement and streamline support.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    icon: icon3,
+    title: "Website and Backend Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "From dynamic websites to scalable backends, we provide robust development services that ensure seamless functionality and performance.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    icon: icon4,
+    title: "Machine Learning",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+    "Empower your business with data-driven insights and predictive models using advanced machine learning techniques tailored to your needs.",
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    icon: icon5,
+    title: "Mobile Application Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Build sleek, high-performance mobile apps using Flutter that deliver exceptional user experiences across Android and iOS platforms.",
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    icon: icon6,
+    title: "Application Integrations",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Seamlessly integrate applications to enhance workflow efficiency and data synchronization across platforms, ensuring smooth operations.",
   },
 ];
 
