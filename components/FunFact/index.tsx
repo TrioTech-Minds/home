@@ -1,5 +1,6 @@
 "use client";
 
+import Doodle from './assets/shape-05.png';
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
@@ -13,7 +14,7 @@ const FunFact = () => {
         <Image
             width={132}
             height={132}
-            src="/images/shape/shape-05.png"
+            src={Doodle}
             alt="Doodle"
             className="absolute -left-8 -top-5 -z-1"
           />
@@ -22,22 +23,9 @@ const FunFact = () => {
           <Image
             width={132}
             height={132}
-            src="/images/shape/shape-05.png"
+            src={Doodle}
             alt="Doodle"
             className="absolute bottom-0 right-0 -z-1"
-          />
-
-          <Image
-            fill
-            src="/images/shape/shape-dotted-light-02.svg"
-            alt="Dotted"
-            className="absolute left-0 top-0 -z-1 dark:hidden"
-          />
-          <Image
-            fill
-            src="/images/shape/shape-dotted-dark-02.svg"
-            alt="Dotted"
-            className="absolute left-0 top-0 -z-1 hidden dark:block"
           />
 
           <motion.div

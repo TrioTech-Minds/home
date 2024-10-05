@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
+import Logo from './assets/Logo.svg';
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import { usePathname } from "next/navigation";
@@ -40,18 +41,11 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
+              src={Logo}
               alt="logo"
-              width={119.03}
+              width={200}
               height={30}
-              className="hidden w-full dark:block"
-            />
-            <Image
-              src="/images/logo/logo-light.svg"
-              alt="logo"
-              width={119.03}
-              height={30}
-              className="w-full dark:hidden"
+              className="dark:hidden"
             />
           </a>
 

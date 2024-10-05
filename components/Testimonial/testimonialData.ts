@@ -26,7 +26,7 @@ export const testimonialData: Testimonial[] = [
   {
     id: 3,
     name: "Abdul Rafay",
-    designation: "Founter @contractWala",
+    designation: "Founder @contractWala",
     image: rafay,
     content:
       "Trio Tech Minds built a stunning mobile app for our business that exceeded all our expectations. Their attention to detail and ability to deliver a seamless experience on both Android and iOS was impressive. We highly recommend them!",
@@ -34,7 +34,7 @@ export const testimonialData: Testimonial[] = [
   {
     id: 4,
     name: "Syed Arham Bin Imran",
-    designation: "Founter @Codable",
+    designation: "Founder @Codable",
     image: arham,
     content:
       "Our website and backend systems needed a major upgrade, and Trio Tech Minds delivered. The team provided an intuitive, fast, and scalable solution that has improved our website performance and customer experience significantly",

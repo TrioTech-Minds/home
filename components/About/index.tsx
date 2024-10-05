@@ -1,5 +1,6 @@
 "use client";
 
+import ChatBot from './assets/ChatBot.jpeg';
 import Image from "next/image";
 import asaanRetail from './assets/assanRetail.png';
 import { motion } from "framer-motion";
@@ -190,24 +191,7 @@ const About = () => {
                 </div>
                 
               </div>
-              <div>
-                <a
-                  href="https://asaanretail.io"
-                  className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
-                >
-                  <span className="duration-300 group-hover:pr-2">
-                    Visit Website
-                  </span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="currentColor"
-                  >
-                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
-                  </svg>
-                </a>
-              </div>
+              
 
             </motion.div>
             <motion.div
@@ -265,19 +249,14 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              style={{display:'flex' , justifyContent:"center" }}
+              className="animate_left relative mx-auto hidden aspect-[588/588] md:block md:w-1/2"
             >
               <Image
-                src={asaanRetail}
+                src={ChatBot}
                 alt="About"
                 className="dark:hidden"
-                fill
-              />
-              <Image
-                src={asaanRetail}
-                alt="About"
-                className="hidden dark:block"
-                fill
+                
               />
             </motion.div>
             <motion.div

@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import Shape3 from './assets/shape-03.svg';
+import gif from './assets/Twyn.gif';
 import image from './assets/shape01.png';
 import image2 from './assets/shape02.svg';
 import sideImage from './assets/sideImage.jpeg';
@@ -15,18 +17,18 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46" style={{background:"#FAFAFA"}}>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 
-              </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
               Welcome To <br />
                {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:z-0 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                <span style={{position:'relative'}}>
+                  
                 TrioTech Minds
+                </span>
                 </span>
               </h1>
               <p>
@@ -37,7 +39,7 @@ const Hero = () => {
 
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
-                <Image
+                {/* <Image
                   src={image}
                   alt="shape"
                   width={46}
@@ -52,25 +54,21 @@ const Hero = () => {
                   className="absolute bottom-0 right-0 z-10"
                 />
                 <Image
-                  src="/images/shape/shape-03.svg"
+                  src={Shape3}
                   alt="shape"
                   width={21.64}
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
-                />
+                /> */}
                 <div className=" relative aspect-[700/444] w-full">
                   <Image
-                    className="shadow-solid-l dark:hidden"
-                    src={sideImage}
+                    src={gif}
                     alt="Hero"
                     fill
                   />
-                  <Image
-                    className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
-                    alt="Hero"
-                    fill
-                  />
+                  {/* <video
+                  src={gif.src}
+                  /> */}
                 </div>
               </div>
             </div>
