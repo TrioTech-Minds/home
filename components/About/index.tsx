@@ -249,8 +249,8 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              style={{display:'flex' , justifyContent:"center" }}
-              className="animate_left relative mx-auto hidden aspect-[588/588] md:block md:w-1/2"
+              style={{ justifyContent:"center" }}
+              className="animate_left relative mx-auto hidden aspect-[588/588] flex md:block md:w-1/2"
             >
               <Image
                 src={ChatBot}
