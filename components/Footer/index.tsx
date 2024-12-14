@@ -30,7 +30,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <a href="/home" className="relative">
                   <Image
                     width={300}
                     height={80}
@@ -91,7 +91,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/home"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Home
