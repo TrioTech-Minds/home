@@ -91,7 +91,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="/"
+                        href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Home
